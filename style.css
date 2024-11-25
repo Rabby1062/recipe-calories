@@ -7,6 +7,8 @@ body {
   overflow-x: hidden;
 }
 
+/* header start */
+
 header {
   align-items: center;
 }
@@ -55,10 +57,60 @@ header {
   padding-left: 8px;
   font-size: 16px;
 }
-.searcebar {
+.searchbar {
   display: flex;
   align-items: center;
 }
 .search:focus-visible {
   outline: 0;
 }
+
+/* header end */
+
+/* banner start */
+
+.container {
+  color: #fff;
+  text-align: center;
+}
+
+.background {
+  background-image: url(img/banner.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 52px;
+  font-weight: 600px;
+  margin-bottom: 24px;
+}
+.banner p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.btn-primary {
+  color: #150b2b;
+  background-color: #0be58a;
+  border-radius: 50px;
+  padding: 20px 35px;
+  border: none;
+  margin-right: 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn-2 {
+  color: #fff;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 20px 35px;
+  border: 1px solid #fff;
+  margin-right: 24px;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* banner end */
